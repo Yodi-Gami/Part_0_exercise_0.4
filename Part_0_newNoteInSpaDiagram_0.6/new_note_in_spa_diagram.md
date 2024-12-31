@@ -10,5 +10,5 @@ sequenceDiagram
     server-->>browser: {{"content": "the finale", "date": "2024-12-31T01:46:40.529Z"}, ... }
     deactivate server
 
-    Note right of browser: The single page app doesn't require the entire page to reload and instead, references the HTML form element by fetching the js code from the server instead.
+    Note right of browser: The single page app doesn't require the entire page to reload and instead, references the HTML form element by fetching the js code from the server.
 ```
